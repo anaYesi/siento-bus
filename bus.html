@@ -46,10 +46,14 @@
 		  <td>25</td>
 		  <td>29</td>
 	  </tr>
-	</table><br>
+	</table>
+
+	<div id="mostrar"></div>
+	<br>
 	<label>DNI: </label>
-	<input type="text" name="DNI">
-	<button id="buscar" onclick="buscar()">Buscar</button><br><br>
+	<input id="dniInput" type="text" name="DNI">
+	<button id="buscarBtn" onclick="buscar()">Buscar</button><br><br>
+	<div id="listar2"></div>
 
 	<label>Nombre: </label>
 	<input id="nombre" type="text" name="nombre" ><br><br>
@@ -62,9 +66,7 @@
 
 	<button id="listar" onclick="listar()">listar</button><br>
 	<div id="listar1"></div>
-	<div id="listar2"></div>
-	<div id="listar3"></div>
-	<div id="mostrar"></div>
+	
 	<script src="bus.js"></script>
 </body>
 </html>
